@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="description" content="Sakura programming language documentation" />
+
+    <title>Zawa Documentation</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+    <link rel="shortcut icon" href="https://simzat.kemenag.go.id/simzat/apps/assets/images/ico.png" type="image/x-icon" />
+
+    <style>
+      :root {
+        --theme-hue: 347;
+        --theme-color: #2ebb7c;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <!--GitHub corner: https://tholman.com/github-corners/, (automatically setup with Docsify)-->
+
+      <style>
+        .github-corner:hover .octo-arm {
+          animation: octocat-wave 560ms ease-in-out
+        }
+
+        @keyframes octocat-wave {
+
+          0%,
+          100% {
+            transform: rotate(0)
+          }
+
+          20%,
+          60% {
+            transform: rotate(-25deg)
+          }
+
+          40%,
+          80% {
+            transform: rotate(10deg)
+          }
+        }
+
+        @media (max-width:500px) {
+          .github-corner:hover .octo-arm {
+            animation: none
+          }
+
+          .github-corner .octo-arm {
+            animation: octocat-wave 560ms ease-in-out
+          }
+        }
+      </style>
+    </div>
+
+    <!-- Gtag -->
+    <script>
+      // Cookie popup plugin
+      function popup(hook) {
+
+        function init() {
+          if (getCookie('ska_c_pref') == 'true') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-HL9DC8T2HW', {
+              cookie_domain: '',
+              cookie_prefix: ''
+            });
+          }
+        }
+
+        const TRANSITION_TIME_S = .35;
+        function buttonClicked(consent) {
+          consent.style.animation = `fade-out ${TRANSITION_TIME_S}s forwards`;
+
+          setTimeout(() => {
+            consent.remove();
+          }, TRANSITION_TIME_S * 1000);
+        }
+
+        hook.init(function () {
+          // console.log(window.Docsify.dom);
+          const dom = window.Docsify.dom;
+
+          if (!getCookie('ska_c_pref')) {
+            const consent = dom.find('#cookie-consent');
+            consent.style.display = 'block';
+            consent.style.animation = `fade-in ${TRANSITION_TIME_S}s forwards`;
+
+            dom.find('#opt-out-button').addEventListener('click', e => {
+              setCookie('ska_c_pref', 'false', 365);
+              buttonClicked(consent);
+            });
+            dom.find('#opt-in-button').addEventListener('click', e => {
+              setCookie('ska_c_pref', 'true', 365);
+              buttonClicked(consent);
+              init();
+            });
+          } else
+            init();
+        });
+      }
+    </script>
+
+    <!-- Cookie helper functions https://www.w3schools.com/js/js_cookies.asp -->
+    <script>
+      function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        let expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+
+      function getCookie(cname) {
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+    </script>
+
+    <script>
+
+      // Plugin to hide cookie-policy from the sidebar
+      function hideFromSideBar(hook) {
+        hook.doneEach(function () {
+          if (window.Docsify.dom.find('#cookie-policy-page') != null) {
+            const menuItem = window.Docsify.dom.find('aside > .sidebar-nav > ul > li > ul');
+            menuItem.innerHTML = null
+
+            if (menuItem.parentElement.classList.contains('active'))
+              menuItem.parentElement.classList.remove('active');
+            if (menuItem.classList.contains('active'))
+              menuItem.classList.remove('active');
+
+            menuItem.parentElement.querySelector('a').style.background = 'var(--sidebar-nav-pagelink-background)';
+          }
+        });
+      }
+    </script>
+
+    <script>
+      window.$docsify = {
+        loadSidebar: true,
+        subMaxLevel: 2,
+        loadFooter: true,
+        auto2top: true,
+        name: 'Sakura',
+        logo: 'https://simzat.kemenag.go.id/simzat/apps/assets/images/logo-simzat.png',
+        plugins: [
+          popup,
+          hideFromSideBar
+        ]
+      };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify-prism@latest/dist/docsify-prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/custom-class/prism-custom-class.min.js" integrity="sha512-aJJMLvtnLLgCuWpIGFpzALJNtWgmiOdY1Qhc1k20ZEi6WQvtoIGhhFa5z6+f05vRDb1KcCCs2ylwQgGKjgjtpg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+
+    <script>
+      // A simple EBNF syntax highlighter for custom use (note that the names are wrong, this lets us use our Sakura styling)
+      Prism.languages.ebnf = {
+        'comment': /#(?!").*$/m,
+        'constant': [
+          /WHITESPACE/,
+          /NEWLINE/
+        ],
+        'string': /"(?:[^"\\]|\\.)*"/,
+        'operator': [
+          /\*/,
+          /\+/,
+          /\[/,
+          /\]/
+        ],
+        'command': [
+          /::=/,
+          /\|/
+        ]
+      };
+    </script>
+    <script>
+      Prism.plugins.customClass.prefix('prism--');
+
+      // Note, this is a terrible syntax highligter, and so should refrain from using keywords nested, as it doesn't usually work too well
+      Prism.languages.ska = {
+        'comment': /#.*$/m,
+        'variable': /\$\w[\w|\d_]*/,
+        'constant': /%\w[\w\d_]*/,
+        'envvar': /@\w[\w\d_]*/,
+        'builtin': [
+          /print(?=\s*\()/,
+          /list(?=\s*\()/,
+          /range(?=\s*\()/,
+          /exit(?=\s*\()/,
+          /type(?=\s*\()/,
+          /str(?=\s*\()/
+        ],
+        'function': /\w(\w|\d)*(?=\n*\(.*\))/m,
+        'string': /"(?:[^"\\]|\\.)*"/,
+        'punctuation': [
+          /{/,
+          /}/,
+          /,/,
+          /\$?\(/,
+          /\)/
+        ],
+        'number': /[+-]?(?:(?:[+-]?\d*\.?\d+e[+-]?\d+)|(?:(?:\d+)?\.\d+)|\d+)(?!\s*=(?!=))/,
+        'operator': [
+          /\+/,
+          /\-/,
+          /[<>=]=?/,
+          /\.\.\./,
+          /\*/,
+          /\//,
+          /&/,
+          /\|/,
+          /!/
+        ],
+        'keyword': [
+          /func/,
+          /for/,
+          /while/,
+          /if/,
+          /else\s+if/,
+          /else/,
+          /return/,
+          /continue/,
+          /break/,
+          /\s+in\s+/,
+          /NULL/,
+          /TRUE/,
+          /FALSE/
+        ],
+        'command': [
+          /MKDIRS/,
+          /MKDIR/,
+          /RENAME/,
+          /MOVE/,
+          /WRITE/,
+          /READ/,
+          /APPEND/,
+          /ISFILE/,
+          /ISDIR/,
+          /DELETE/,
+          /EXISTS/,
+          /PATH/,
+          /TO/,
+          /COPY/
+        ]
+      }
+    </script>
+
+    <style>
+      /* See https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll */
+      .sidebar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      .sidebar::-webkit-scrollbar {
+        display: none;
+        /* Safari and Chrome */
+      }
+
+      /* Manually hide links that don't have any sub points */
+      a[href='#/formal-grammar'] {
+        background-image: none !important;
+      }
+
+      #cookie-policy-first-heading {
+        margin-top: 3px;
+      }
+
+      #cookie-consent {
+        display: none;
+
+        opacity: 1;
+        animation: fade 2s linear;
+
+        position: fixed;
+        z-index: 100;
+
+        width: 20%;
+        min-width: 500px;
+
+        height: 25%;
+        min-height: fit-content;
+        max-height: 185px;
+
+        right: 10px;
+        bottom: 10px;
+        padding: 0 20px;
+
+        border-radius: 7px;
+        border: 1px solid #dcdcdc;
+
+        background-color: white;
+
+        overflow: hidden;
+      }
+
+      #cookie-consent>p>a,
+      #cookie-consent>p>a:visited,
+      #cookie-consent>p>a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: inherit;
+      }
+
+      @keyframes fade-out {
+        from {
+          opacity: 100%;
+        }
+
+        to {
+          opacity: 0%;
+        }
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0%;
+        }
+
+        to {
+          opacity: 100%;
+        }
+      }
+
+      #cookie-consent>h1 {
+        color: var(--theme-color);
+        font-size: 18pt;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        font-weight: 300;
+      }
+
+      #cookie-consent>p {
+        color: #575757;
+        padding: 0;
+        margin: 0;
+
+        word-wrap:break-word;
+      }
+
+      #cookie-button-container {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        min-height: fit-content;
+
+        min-width: fit-content;
+        max-width: 75%;
+
+        display: block;
+      }
+
+      #cookie-button-container>button {
+        text-underline-offset: 2px;
+        text-decoration: none;
+
+        width: 45%;
+        height: 40px;
+
+        font-size: 15pt;
+        cursor: pointer;
+
+        transition: text-decoration 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+
+      #cookie-button-container>button:hover {
+        text-decoration: underline;
+      }
+
+      #opt-out-button {
+        float: left;
+
+        color: var(--theme-color);
+
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid var(--theme-color);
+      }
+
+      #opt-in-button {
+        float: right;
+
+        color: white;
+
+        background-color: var(--theme-color);
+        border-radius: 10px;
+        border: 1px solid var(--theme-color);
+      }
+
+      /* Mobile cookie consent */
+      @media (max-width: 860px) {
+
+        #cookie-consent {
+          min-width: 0px;
+          width: 100%;
+          max-width: 100%;
+
+          min-height: 230px;
+          height: fit-content;
+
+          bottom: -1px;
+          right: auto;
+
+          border-radius: 0;
+        }
+
+        #cookie-button-container>button {
+          display: block;
+          float: none;
+
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        #opt-in-button {
+          margin-bottom: 15px;
+        }
+
+        #opt-out-button {
+          margin-bottom: 1em;
+        }
+
+        #cookie-button-container {
+          max-width: 100vw;
+        }
+      }
+
+      #readme-logo {
+        max-height: 95px;
+        display: block;
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #lang-ver {
+        margin-top: 1em;
+        text-align: center;
+      }
+
+      a.app-name-link>img {
+        max-height: 32px;
+      }
+
+      footer {
+        font-size: 8pt;
+        color: #6e6e6e;
+        text-align: center;
+      }
+
+      footer>hr {
+        margin-bottom: 4px;
+      }
+    </style>
+
+    <!--Prism styles-->
+    <style>
+      .prism--comment {
+        color: #7e707e;
+      }
+
+      .prism--string {
+        color: #951680
+      }
+
+      .prism--envvar,
+      .prism--builtin {
+        color: #8d1449;
+      }
+
+      .prism--operator,
+      .prism--punctuation {
+        color: #856a54;
+      }
+
+      .prism--number {
+        color: #621155;
+      }
+
+      .prism--variable {
+        color: #e32d9d;
+      }
+
+      .prism--constant {
+        color: #df1f49;
+      }
+
+      .prism--keyword {
+        color: #b2097f;
+      }
+
+      .prism--command {
+        color: #a91f3c
+      }
+    </style>
+  </body>
+</html>
