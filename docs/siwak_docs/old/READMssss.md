@@ -1,4 +1,4 @@
-<img alt="Sakura" id="readme-logo" src="https://simzat.kemenag.go.id/simzat/apps/assets/images/logo-simzat.png"/>
+<img alt="Sakura" id="readme-logo" src="https://kemenag.go.id/assets/imgs/theme/logo.png"/>
 
 ## About
 
