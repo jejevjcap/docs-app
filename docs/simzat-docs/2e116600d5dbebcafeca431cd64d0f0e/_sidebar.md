@@ -1,5 +1,5 @@
-- [Home](/0ed84d9008ebd91a7f933a538493dd2c "Zawa Documentation")
-- [Commands & Paths](/commands.md)
+- [Admin Pusat](/ "Zawa Documentation - Admin Pusat")
+<!-- - [Commands & Paths](/336fc74be99f31a1b31a979721b38bf3.md "Zawa Documentation - Tim QC")
 - [Variables](/variables.md)
 - [Operators](/operators.md)
 - [Branching](/branching.md)
@@ -7,4 +7,4 @@
 - [Functions](/functions.md)
 - [Conventions](/conventions.md)
 - [Interpreters](/interpreters.md)
-- [Formal Grammar](/formal-grammar.md)
+- [Formal Grammar](/formal-grammar.md) -->
