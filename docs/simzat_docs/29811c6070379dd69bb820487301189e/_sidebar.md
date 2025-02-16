@@ -1,4 +1,4 @@
-- [Tim QC](/ "Zawa Documentation - Tim QC")
+- [Admin Super](/ "Zawa Documentation - Admin Super")
 <!-- - [Commands & Paths](/336fc74be99f31a1b31a979721b38bf3.md "Zawa Documentation - Tim QC")
 - [Variables](/variables.md)
 - [Operators](/operators.md)
