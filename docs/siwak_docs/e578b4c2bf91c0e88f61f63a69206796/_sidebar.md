@@ -1,5 +1,5 @@
-- [Pendahuluan](/pendahuluan.md)
-- [Program Bantuan BWI](/ "Zawa Documentation - User BWI")
+- [Pendahuluan](/ "Zawa Documentation - User BWI")
+- [Program Bantuan BWI](/bantuan.md)
 <!-- - [Commands & Paths](/336fc74be99f31a1b31a979721b38bf3.md "Zawa Documentation - Tim QC")
 - [Operators](/operators.md)
 - [Branching](/branching.md)
