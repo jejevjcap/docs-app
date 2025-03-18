@@ -8,15 +8,15 @@
 
 Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
 
-# Proses Pengajuan
+## Proses Pengajuan
 
-## Login
+### Login
 
 Buka halaman log in, lalu masuk menggunakan username dan kata sandi. Lalu klik login
 
 ![]()
 
-## periode bantuan BWI
+### periode bantuan BWI
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279314.png)
 
@@ -28,7 +28,7 @@ Isi formulir pengajuan dan Unggah dokumen SK BWI dan berkas lainnya lalu klik si
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279350.png)
 
-## Menyunting Dokumen
+### Menyunting Dokumen
 
 > Sebelum menyunting dokumen berkas, harap memperhatikan jadwal agenda pada halaman bantuan BWI, jika sudah melewati batas waktu maka berkas sudah tidak dapat di sunting.
 
@@ -42,7 +42,7 @@ unggah berkas yang ingin di ubah, lalu klik simpan
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279402.png)
 
-## Manage Data Asset
+### Manage Data Asset
 
 Pada Menu detail, klik data asset lalu tambah, lalu isi daftar asset sesuai kolom tersedia lalu klik simpan
 
@@ -54,7 +54,7 @@ Pada Menu detail, klik data asset lalu tambah, lalu isi daftar asset sesuai kolo
 
 Pengguna juga dapat merubah dan menghapus data asset dengan mengklik tombol perbarui dan hapus
 
-## Personel Anggota BWI
+### Personel Anggota BWI
 
 Pada menu personel anggota BWI, pengguna dapat menambahkan, memeperbarui atau menghapus personel anggota BWI. untuk mwnambahkan personel anggota BWI dan klik tambah, lalu isi formulir tersedia dan klik simpan
 
@@ -62,7 +62,7 @@ Pada menu personel anggota BWI, pengguna dapat menambahkan, memeperbarui atau me
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279494.png)
 
-## Personel Sekretariat Dan Pendukung Pelaksana
+### Personel Sekretariat Dan Pendukung Pelaksana
 
 Pada menu personel sekretariat dan pendukung pelaksana, untuk menambah personel sekretariat dan pendukung pelaksana klik menu tambah, kemudian isi formulir dan lik simpan.
 
@@ -70,7 +70,7 @@ Pada menu personel sekretariat dan pendukung pelaksana, untuk menambah personel 
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279527.png)
 
-## Manage Rencana Program Satu Tahun
+### Manage Rencana Program Satu Tahun
 
 Pada halaman detail, Manage rencana program satu tahun, pengguna dapat mengisi rencana kegiatan selama setu tahun berdasarkan bantuan dari kementerian agama. klik tambah lalu isi formulir rencana kegiatan dan klik simpan.
 
@@ -84,7 +84,7 @@ untuk BWI tingkat provinsi ada default rencana untuk belanja pegawai
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279618.png)
 
-## Kirim Pengajuan
+### Kirim Pengajuan
 
 Setelah semua data dilengkapi maka pengajuan sudah dapat dikirim, klik kirim pengajuan
 
@@ -94,7 +94,7 @@ Ketika pengajuan sudah dikirim dan dalam proses pemeriksaan, tombol pengajuan ak
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279656.png)
 
-## Revisi Berkas
+### Revisi Berkas
 
 Setelah perngajuan di periksa, untuk BWI pusat dan Provinsi dapat melakukan revisi berkas dalam waktu 7 hari setelah pemeriksaan.
 Pengguna dapat login ke akun bantuan BWI, pada detail pengajuan cek apakah ada tombol revisi. revisi berkas dan ajukan kembali.
