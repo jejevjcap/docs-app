@@ -12,7 +12,7 @@ Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
 
 Buka halaman log in, lalu masuk menggunakan username dan kata sandi pada menu login pegawai. Lalu klik login
 
-### Berikut ini adalah tampilan untuk periode bantuan BAZNAS
+### Periode bantuan BAZNAS
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742305025.png)
 
