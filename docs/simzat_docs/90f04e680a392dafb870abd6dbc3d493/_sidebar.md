@@ -1,5 +1,5 @@
 - [Pendahuluan](/ "Zawa Documentation - User Baznaz")
-- [Baznas](/baznas.md)
+- [Program Bantuan BAZNAS](/baznas.md)
 <!-- - [Commands & Paths](/336fc74be99f31a1b31a979721b38bf3.md "Zawa Documentation - Tim QC")
 - [Operators](/operators.md)
 - [Branching](/branching.md)

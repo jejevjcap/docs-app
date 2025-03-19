@@ -2,8 +2,6 @@
 
 # Modul Bantuan
 
-## Program Bantuan BWI
-
 > Kementerian Agama menyalurkan bantuan untuk Badan Wakaf Indonesia, pengajuan bantuan ini dapat dilakukan seluruh BWI di Indonesia melalui pengajuan melalui aplikasi SIWAK.Pastikan pengguna sudah memiliki Akun pada aplikasi SIWAK, jika belum memiliki akun, pengguna dapat menghubungi BWI pusat atau BWI provinsi.
 
 Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:

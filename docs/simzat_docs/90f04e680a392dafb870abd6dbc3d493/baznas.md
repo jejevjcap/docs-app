@@ -2,8 +2,6 @@
 
 # Modul Bantuan
 
-## Program Bantuan BAZNAS
-
 > Kementerian Agama menyalurkan bantuan untuk Badan Amil Zakat Nasional (BAZNAS) melalui aplikasi Simzat Kemenag, pengajuan permohonan dapat dilakukan BAZNAS yang telah memiliki akun. Jika belum memiliki akun, pengguna dapat menghubungi BAZNAZ pusat atau BAZNAS provinsi. Permohonan bantuan ini dapat dilakukan oleh BAZNAS Kabupaten kota, BAZNAS Provinsi dan BAZNAS Pusat.
 
 Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
