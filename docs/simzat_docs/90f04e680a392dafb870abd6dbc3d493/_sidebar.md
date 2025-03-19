@@ -1,6 +1,6 @@
-- [Pemohon Tanah Wakaf](/ "Zawa Documentation - User Baznaz")
+- [Pendahuluan](/ "Zawa Documentation - User Baznaz")
+- [Baznas](/basnaz.md)
 <!-- - [Commands & Paths](/336fc74be99f31a1b31a979721b38bf3.md "Zawa Documentation - Tim QC")
-- [Variables](/variables.md)
 - [Operators](/operators.md)
 - [Branching](/branching.md)
 - [Loops & Iterables](/loops.md)

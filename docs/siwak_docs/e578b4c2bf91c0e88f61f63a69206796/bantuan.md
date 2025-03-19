@@ -2,7 +2,9 @@
 
 # Modul Bantuan
 
-> Kementerian Agama menyalurkan bantuan untuk Badan Amil Zakat Nasional (BAZNAS) melalui aplikasi Simzat Kemenag, pengajuan permohonan dapat dilakukan BAZNAS yang telah memiliki akun. Jika belum memiliki akun, pengguna dapat menghubungi BAZNAZ pusat atau BAZNAS provinsi. Permohonan bantuan ini dapat dilakukan oleh BAZNAS Kabupaten kota, BAZNAS Provinsi dan BAZNAS Pusat.
+## Program Bantuan BWI
+
+> Kementerian Agama menyalurkan bantuan untuk Badan Wakaf Indonesia, pengajuan bantuan ini dapat dilakukan seluruh BWI di Indonesia melalui pengajuan melalui aplikasi SIWAK.Pastikan pengguna sudah memiliki Akun pada aplikasi SIWAK, jika belum memiliki akun, pengguna dapat menghubungi BWI pusat atau BWI provinsi.
 
 Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
 
@@ -10,91 +12,90 @@ Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
 
 ### Login
 
-Buka halaman log in, lalu masuk menggunakan username dan kata sandi pada menu login pegawai. Lalu klik login
+Buka halaman log in, lalu masuk menggunakan username dan kata sandi. Lalu klik login
 
-### Periode bantuan BAZNAS
+![]()
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305025.png)
+### Berikut ini adalah tampilan untuk periode bantuan BWI
 
-untuk mengajukan bantuan, klik tombol + usul bantuan, akan muncul tampilan sebagai berikut
+![](https://apps.syscloud.my.id/docs_app/images/1742279314.png)
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305041.png)
+untuk mengajukan bantuan, klik tombol pengajuan bantuan, akan muncul tampilan sebagai berikut
 
-Isi form usulan sesuai kolom tersedia, kemudian Unggah dokumen SK Baznas dan dokumen lainnya lalu klik simpan untuk membuat draft usulan
+![](https://apps.syscloud.my.id/docs_app/images/1742279332.png)
+
+Isi formulir pengajuan dan Unggah dokumen SK BWI dan berkas lainnya lalu klik simpan untuk membuat draft usulan
+
+![](https://apps.syscloud.my.id/docs_app/images/1742279350.png)
 
 ### Menyunting Dokumen
 
-> Sebelum menyunting dokumen berkas, harap memperhatikan jadwal agenda pada halaman bantuan Baznas, jika sudah melewati batas waktu maka berkas sudah tidak dapat di sunting.
+> Sebelum menyunting dokumen berkas, harap memperhatikan jadwal agenda pada halaman bantuan BWI, jika sudah melewati batas waktu maka berkas sudah tidak dapat di sunting.
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305091.png)
+> Jika pengguna ingin menyunting dokumen yang telah di unggah, pengguna dapat melakukan pada menu bantuan BWI, pada bagian paling bawah klik detail syarat.pada detail syarat, klik tombol ubah.
+> ![](https://apps.syscloud.my.id/docs_app/images/1742279368.png)
 
-> Jika pengguna ingin menyunting dokumen yang telah di unggah, pengguna dapat melakukan pada menu bantuan Baznas, pada bagian paling bawah klik detail, lalu klik tombol ubah .
+unggah berkas yang ingin di ubah, lalu klik simpan
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305056.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279387.png)
 
-Maka akan muncul tampilan sebagai berikut:
-
-![](https://apps.syscloud.my.id/docs_app/images/1742305075.png)
-unggah berkas dan data yang ingin disunting, lalu klik simpan
+![](https://apps.syscloud.my.id/docs_app/images/1742279402.png)
 
 ### Manage Data Asset
 
-Pada Menu detail, geser ke menu data asset, maka akan tampil menu sebagai berikut
+Pada Menu detail, klik data asset lalu tambah, lalu isi daftar asset sesuai kolom tersedia lalu klik simpan
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305107.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279422.png)
 
-Pengguna juga dapat menambah, memperbarui dan menghapus data asset. untuk menambah data asset, klik tambah
+![](https://apps.syscloud.my.id/docs_app/images/1742279442.png)
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305122.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279458.png)
 
-Isi Form data asset sesuai kolom yang tersedia, kemudian klik simpan
+Pengguna juga dapat merubah dan menghapus data asset dengan mengklik tombol perbarui dan hapus
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305137.png)
+### Personel Anggota BWI
 
-Untuk merubah dan menghapus data asset dengan mengklik tombol perbarui dan hapus
+Pada menu personel anggota BWI, pengguna dapat menambahkan, memeperbarui atau menghapus personel anggota BWI. untuk mwnambahkan personel anggota BWI dan klik tambah, lalu isi formulir tersedia dan klik simpan
 
-### Personel Anggota BAZNAS
+![](https://apps.syscloud.my.id/docs_app/images/1742279474.png)
 
-Pada menu personel anggota Baznas, pengguna dapat menambahkan, memeperbarui atau menghapus personel anggota Baznas.
-
-![](https://apps.syscloud.my.id/docs_app/images/1742305317.png)
-
-Untuk memperbarui dan menghapus anggota personel, dapat mengklik tombol perbarui atau hapus.
-untuk menambah personel, klik tambah dan lengkapi formulir tersedia kemudian klik simpan
-
-![](https://apps.syscloud.my.id/docs_app/images/1742305333.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279494.png)
 
 ### Personel Sekretariat Dan Pendukung Pelaksana
 
-Pada menu personel sekretariat dan pendukung pelaksana, User dapat menambah, emmeperbarui dan menghapus personel sekretariat dan pendukung pelaksana.
+Pada menu personel sekretariat dan pendukung pelaksana, untuk menambah personel sekretariat dan pendukung pelaksana klik menu tambah, kemudian isi formulir dan lik simpan.
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305350.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279511.png)
 
-untuk menghapus dan memperbaruin personel sekretariat dan pendukung pelaksana, user dapat menggunakan tombol hapus dan perbarui
-
-![](https://apps.syscloud.my.id/docs_app/images/1742305350.png)
-
-Untuk menambah personel sekretariat dan pendukung pelaksana, klik tombol tambah maka akan muncul tampilan sebagai berikut
-
-![](https://apps.syscloud.my.id/docs_app/images/1742305366.png)
-Lengkapi formulir tersedia, kemudian klik simpan
+![](https://apps.syscloud.my.id/docs_app/images/1742279527.png)
 
 ### Manage Rencana Program Satu Tahun
 
-Pada halaman detail, Manage rencana program satu tahun, pengguna dapat mengisi rencana kegiatan selama setu tahun berdasarkan bantuan dari kementerian agama.
+Pada halaman detail, Manage rencana program satu tahun, pengguna dapat mengisi rencana kegiatan selama setu tahun berdasarkan bantuan dari kementerian agama. klik tambah lalu isi formulir rencana kegiatan dan klik simpan.
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305382.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279541.png)
 
-Untuk menambahkan rencana program satu tahun, klik tambah lalu isi formulir rencana kegiatan dan klik simpan.
+![](https://apps.syscloud.my.id/docs_app/images/1742279557.png)
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305398.png)
+untuk BWI tingkat provinsi ada default rencana untuk belanja pegawai
+
+![](https://apps.syscloud.my.id/docs_app/images/1742279573.png)
+
+![](https://apps.syscloud.my.id/docs_app/images/1742279618.png)
 
 ### Kirim Pengajuan
 
 Setelah semua data dilengkapi maka pengajuan sudah dapat dikirim, klik kirim pengajuan
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305414.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279639.png)
 
 Ketika pengajuan sudah dikirim dan dalam proses pemeriksaan, tombol pengajuan akan berubah warna
 
-![](https://apps.syscloud.my.id/docs_app/images/1742305435.png)
+![](https://apps.syscloud.my.id/docs_app/images/1742279656.png)
+
+### Revisi Berkas
+
+Setelah perngajuan di periksa, untuk BWI pusat dan Provinsi dapat melakukan revisi berkas dalam waktu 7 hari setelah pemeriksaan.
+Pengguna dapat login ke akun bantuan BWI, pada detail pengajuan cek apakah ada tombol revisi. revisi berkas dan ajukan kembali.
+
+![](https://apps.syscloud.my.id/docs_app/images/1742281262.png)
