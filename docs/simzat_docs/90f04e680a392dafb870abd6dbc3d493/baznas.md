@@ -8,13 +8,13 @@
 
 Adapun langkah - langkah untuk mengajukan bantuan adalah sebagai berikut:
 
-### Proses Pengajuan
+## Proses Pengajuan
 
-#### Login
+### Login
 
 Buka halaman log in, lalu masuk menggunakan username dan kata sandi pada menu login pegawai. Lalu klik login
 
-#### Periode bantuan BAZNAS
+### Periode bantuan BAZNAS
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742305025.png)
 
@@ -24,7 +24,7 @@ untuk mengajukan bantuan, klik tombol + usul bantuan, akan muncul tampilan sebag
 
 Isi form usulan sesuai kolom tersedia, kemudian Unggah dokumen SK Baznas dan dokumen lainnya lalu klik simpan untuk membuat draft usulan
 
-#### Menyunting Dokumen
+### Menyunting Dokumen
 
 > Sebelum menyunting dokumen berkas, harap memperhatikan jadwal agenda pada halaman bantuan Baznas, jika sudah melewati batas waktu maka berkas sudah tidak dapat di sunting.
 
@@ -39,7 +39,7 @@ Maka akan muncul tampilan sebagai berikut:
 ![](https://apps.syscloud.my.id/docs_app/images/1742305075.png)
 unggah berkas dan data yang ingin disunting, lalu klik simpan
 
-#### Manage Data Asset
+### Manage Data Asset
 
 Pada Menu detail, geser ke menu data asset, maka akan tampil menu sebagai berikut
 
@@ -55,7 +55,7 @@ Isi Form data asset sesuai kolom yang tersedia, kemudian klik simpan
 
 Untuk merubah dan menghapus data asset dengan mengklik tombol perbarui dan hapus
 
-#### Personel Anggota BAZNAS
+### Personel Anggota BAZNAS
 
 Pada menu personel anggota Baznas, pengguna dapat menambahkan, memeperbarui atau menghapus personel anggota Baznas.
 
@@ -66,7 +66,7 @@ untuk menambah personel, klik tambah dan lengkapi formulir tersedia kemudian kli
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742305333.png)
 
-#### Personel Sekretariat Dan Pendukung Pelaksana
+### Personel Sekretariat Dan Pendukung Pelaksana
 
 Pada menu personel sekretariat dan pendukung pelaksana, User dapat menambah, emmeperbarui dan menghapus personel sekretariat dan pendukung pelaksana.
 
@@ -81,7 +81,7 @@ Untuk menambah personel sekretariat dan pendukung pelaksana, klik tombol tambah 
 ![](https://apps.syscloud.my.id/docs_app/images/1742305366.png)
 Lengkapi formulir tersedia, kemudian klik simpan
 
-#### Manage Rencana Program Satu Tahun
+### Manage Rencana Program Satu Tahun
 
 Pada halaman detail, Manage rencana program satu tahun, pengguna dapat mengisi rencana kegiatan selama setu tahun berdasarkan bantuan dari kementerian agama.
 
@@ -91,7 +91,7 @@ Untuk menambahkan rencana program satu tahun, klik tambah lalu isi formulir renc
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742305398.png)
 
-#### Kirim Pengajuan
+### Kirim Pengajuan
 
 Setelah semua data dilengkapi maka pengajuan sudah dapat dikirim, klik kirim pengajuan
 
