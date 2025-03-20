@@ -14,7 +14,7 @@ Buka halaman log in, lalu masuk menggunakan username dan kata sandi. Lalu klik l
 
 ![]()
 
-### Berikut ini adalah tampilan untuk periode bantuan BWI
+### Periode bantuan BWI
 
 ![](https://apps.syscloud.my.id/docs_app/images/1742279314.png)
 
