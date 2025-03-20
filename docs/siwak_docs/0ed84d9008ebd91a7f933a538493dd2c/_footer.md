@@ -1,6 +1,6 @@
 <footer>
   <hr />
 
-Copyrights © 2025 SIMZAT KEMENAG. All rights reserved.
+Copyrights © 2025 SIWAK KEMENAG. All rights reserved.
 
 </footer>
